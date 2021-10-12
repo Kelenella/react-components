@@ -1,0 +1,2 @@
+(this["webpackJsonpcost-register"]=this["webpackJsonpcost-register"]||[]).push([[0],{4:function(t,e,s){"use strict";s.r(e);var n=s(0),r=s.n(n),c=s(2),o=s.n(c),i=(s(9),s(3));o.a.render(Object(i.jsx)(r.a.StrictMode,{}),document.getElementById("root"))},9:function(t,e,s){}},[[4,1,2]]]);
+//# sourceMappingURL=main.485d5ed8.chunk.js.map
