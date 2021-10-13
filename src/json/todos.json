@@ -1,0 +1,22 @@
+[
+      {
+        "id": "id-1",
+        "text": "Выучить Реакт",
+        "completed": true
+      },
+      {
+        "id": "id-2",
+        "text": "Выучить Ноду",
+        "completed": false
+      },
+      {
+        "id": "id-3",
+        "text": "Разобраться с Редакс",
+        "completed": false
+      },
+      {
+        "id": "id-4",
+        "text": "Устроиться на работу",
+        "completed": false
+      }
+    ]

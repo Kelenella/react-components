@@ -1,0 +1,20 @@
+.todoList {
+  width: 200px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid teal;
+}
+.text {
+  margin-right: 15px;
+}
+.deleteButton {
+  cursor: pointer;
+  background-color: thistle;
+  color: black;
+}

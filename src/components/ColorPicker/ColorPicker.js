@@ -3,7 +3,7 @@ import s from './ColorPicker.module.css';
 
 class ColorPicker extends Component {
   state = {
-    activeOptionIdx: 1,
+    activeOptionIdx: 0,
   };
   setActiveIndex = index => {
     this.setState({ activeOptionIdx: index });
@@ -18,11 +18,16 @@ class ColorPicker extends Component {
     return optionClasses.join(' ');
   };
   render() {
+    const { activeOptionIdx } = this.state;
+    const { colors } = this.props;
+    const { label } = colors[activeOptionIdx];
+
     return (
       <>
         <h2 className={s.title}>Color Picker</h2>
+        <p>Выбран цвет:{label}</p>
         <div className={s.div}>
-          {this.props.colors.map((color, index) => (
+          {colors.map((color, index) => (
             <button
               key={color.color}
               type="button"
